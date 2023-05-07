@@ -8,8 +8,8 @@
 <body>
     <form class="registration-form">
         <h1>Rejestracja na koncert</h1>
-        <fieldset class="personal-data">
-        <legend>Dane osobowe</legend>
+        <fieldset class="fieldset">
+        <legend class="legend">Dane osobowe</legend>
         <div class="name-and-surname form-row">
 
             <label class="form-field" >
@@ -31,6 +31,24 @@
             <input class="form-field__input" type="date" id="birth-date" name="birth-date">
             </label>
         </fieldset>
+        <fieldset class="fieldset">
+        <legend class="legend">Wybór miejsca</legend>
+            <label class="form-field form-row">
+                Miejsce:
+                <select class="form-field__input" name="place">
+                    <option value="vip_ticket">strefa VIP</option>
+                    <option value="normal_ticket">strefa normalna</option>
+                    <option value="cheap_ticket">strefa taniego biletu</option>
+                  </select>
+            </label>
+        </fieldset>
+        <fieldset class="fieldset">
+            <legend class="legend">Zgoda na przetwarzanie danych</legend>
+            <label class="form-field form-row">
+                    <input type="checkbox" name="agreement">
+                    Wyrażam zgodę na przetwarzanie moich danych osobowych w celu rejestracji na koncert.
+            </label>
+                </fieldset>
         <button class="submit-button" type="submit">Zarejestruj się</button>
         </form>  
 </body>
