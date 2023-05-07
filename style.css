@@ -48,3 +48,7 @@ body {
     display: flex;
     gap: 16px;
 }
+
+.font-weight {
+    font-weight: bold;
+}
