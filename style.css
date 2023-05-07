@@ -1,40 +1,42 @@
-*{
+* {
     box-sizing: border-box;
 }
 
 body{
     font-family: Arial, sans-serif;
 }
-.registration-form{
-width: 640px;
-margin: 0 auto;
-border: 1px solid #0d6efd ;
-border-radius: 4px;
-padding: 16px 8px;
+
+.registration-form {
+    width: 640px;
+    margin: 0 auto;
+    border: 1px solid #0d6efd ;
+    border-radius: 4px;
+    padding: 16px 8px;
 }
-.form row{
+
+.form-row {
     margin: 16px 0;
 }
-.form-field{
+
+.form-field {
     display: block;
     width: 100%;
 }
 
-.form-field__input{
-width: 100%;
-border: 1px solid #0d6efd ;
-border-radius: 4px;
-padding: 4px 8px;
-
+.form-field__input {
+    width: 100%;
+    border: 1px solid #0d6efd ;
+    border-radius: 4px;
+    padding: 4px 8px;
 }
 
-.personal-data{
+.personal-data {
     border: 1px solid #0d6efd;
     border-radius: 4px;
     margin-bottom: 16px;
 }
 
-.submit-button{
+.submit-button {
     background-color: #0d6efd ;
     color: white;
     padding: 8px 16px;
@@ -42,7 +44,7 @@ padding: 4px 8px;
     border-radius: 4px;
 }
 
-.name-and-surname{
+.name-and-surname {
     display: flex;
     gap: 16px;
 }
