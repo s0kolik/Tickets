@@ -2,12 +2,36 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rejestracja na koncert</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <form class="registration-form">
+        <h1>Rejestracja na koncert</h1>
+        <fieldset class="personal-data">
+        <legend>Dane osobowe</legend>
+        <div class="name-and-surname form-row">
+
+            <label class="form-field" >
+                Imię:
+            <input class="form-field__input" type="text" name="firstname">
+            </label>
+
+            <label class="form-field">
+                Nazwisko:
+            <input class="form-field__input" type="text" name="surname">
+            </label>
+            </div>
+            <label class="form-field form-row">
+                Adres e-mail:
+            <input class="form-field__input" type="email" name="email:">
+            </label>
+            <label class="form-field form-row">
+                Data urodzenia:
+            <input class="form-field__input" type="date" id="birth-date" name="birth-date">
+            </label>
+        </fieldset>
+        <button class="submit-button" type="submit">Zarejestruj się</button>
+        </form>  
 </body>
 </html>
