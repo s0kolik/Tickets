@@ -13,7 +13,7 @@ body {
 }
 
 .registration-form {
-    width: 640px;
+    max-width: 640px;
     margin: 0 auto;
     border: var(--default-border);
     border-radius: 4px;
@@ -58,4 +58,3 @@ body {
 .legend {
     font-weight: bold;
 }
-@media (max-width: 600px)
